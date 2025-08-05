@@ -1,0 +1,35 @@
+.name: Otomatik README Güncelleme
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Her 5 dakikada bir tetiklenir
+  workflow_dispatch:       # Manuel tetikleme için
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu çek
+        uses: actions/checkout@v3
+
+      - name: README dosyasını güncelle
+        run: |
+          echo "## Otomatik Güncelleme" > README.md
+          echo "Güncelleme zamanı: $(date)" >> README.md
+
+      - name: Git ayarları
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Değişiklikleri commit et
+        run: |
+          git add README.md
+          git commit -m "README dosyası otomatik güncelleme [ci skip]" || echo "Değişiklik yok"
+
+      - name: Değişiklikleri push et
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
