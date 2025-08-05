@@ -1,4 +1,4 @@
-.name: Otomatik README Güncelleme
+name: Otomatik README Güncelleme
 
 on:
   schedule:
