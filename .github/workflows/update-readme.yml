@@ -2,8 +2,8 @@
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Her 5 dakikada bir tetiklenir
-  workflow_dispatch:       # Manuel tetikleme için
+    - cron: '*/5 * * * *'  # 5 Dakika
+  workflow_dispatch:       # Manuel tetikleme
 
 jobs:
   update-readme:
