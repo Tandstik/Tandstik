@@ -1,5 +1,5 @@
 ## 📊 GitHub Stats & Activity
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tandstik&layout=compact&theme=radical)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=tandstik&show_icons=true&theme=radical)
+![Top Langs](https://minevia.vercel.app/api/most-used/tandstik)
+![GitHub stats](https://minevia.vercel.app/api/github-stats/tandstik)
 [![Discord Presence](https://minevia.vercel.app/api/lanyard/1029397778771738625)](https://discord.com/users/1029397778771738625)
