@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/fraio"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg" height="48" alt="github"></a>
+<a href="https://go.fraio.cc/github"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg" height="48" alt="github"></a>
 <a href="https://fraio.cc"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/website_vector.svg" height="48" alt="website"></a>
 
 </div>
