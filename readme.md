@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/fraiocc"><img src="https://fraio.cc/favicon.svg" width="72" alt="Fraio"></a>
+<a href="https://go.fraio.cc/github"><img src="https://fraio.cc/favicon.svg" width="72" alt="Fraio"></a>
 
 # Fraio
 
